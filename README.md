@@ -1,4 +1,4 @@
-# Create Your Own AI Chat Bot 😉
+# Create Your Own AI Chat Bot in Line😉
 
 This code helps you make your own LINE bot with AI capabilities!
 
@@ -33,4 +33,6 @@ Click "Edit" and paste your Web App URL
 Click "Update" or "Save"
 Click "Verify" and wait for the success message
 
+
+### Done!
 
