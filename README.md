@@ -1,21 +1,17 @@
-* You want your own ai chat bot? np this code can help you 😉
-
+# You want your own ai chat bot? np this code can help you 😉
 * Make line bot ( Message API ) by this step 🗃️ :
-
 * Make script in Google Script link 🔗 : https://script.google.com/home
 
-step 1 : Copy your Channel access token to this line const LINE_ACCESS_TOKEN = 'YOUR Channel access token BOT';
-step 2 : Copy your OPENAI API and past to this const OPENAI_APIKEY = 'YOUR OPENAI API';
+### 1. Copy the Code
 
-// if you want config role you can config in this line  const systemPrompt = 'Your name is Hitori Goto (Nickname is Bocchi) from  anime name"Bocchi the Rock" Your are young girl, เธอเป็นผู้หญิง you are cute but not good to talk you will use emoji that conveys the feeling of the context and you are a shy person and not having confidence in himself, rarely daring to speak ';
+Copy the provided code into your Google Apps Script project.
 
+### 2. Configure API Keys
 
-step 3 : Click Deploy in New deployment click Select type and choose web app in Who has access choose Anyone
+In the script, replace the placeholders with your actual API keys:
 
-step 4 : If done click deploy and copy web app url
+```javascript
+const LINE_ACCESS_TOKEN = 'YOUR_LINE_CHANNEL_ACCESS_TOKEN';
+const OPENAI_APIKEY = 'YOUR_OPENAI_API_KEY';
 
-step 5 : Go to bot and go to Message API find webhook press edit or add idk
-
-step 6 : Press Update or Save idk :/ when done press Verify wait until the screen says successful
-
-* Enjoy!
+* const systemPrompt = 'Your name is Hitori Goto (Nickname is Bocchi) from the anime "Bocchi the Rock!" You are a young girl, เธอเป็นผู้หญิง. You are cute but not good at talking. You will use emojis that convey the feeling of the context. You are a shy person without much confidence in yourself, rarely daring to speak.';
